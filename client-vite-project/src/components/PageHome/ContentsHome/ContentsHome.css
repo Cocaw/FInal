@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.sectionInicio {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.sectionSubtitle {
+    width: 80%;
+    margin-left: 190px;
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.containerLogoPageHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logoPageHome {
+    width: 120px;
+}
+
+.containerIcons {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap:120px
+}
+
+.iconChampions {
+    width:120px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    margin-right: 100px;
+}
+
+.iconInternational {
+    width: 96px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    margin-right: 100px;
+}
+
+.iconLibertadores {
+    width: 96px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    margin-right: 100px;
+}
+
+.iconLocal {
+    width: 96px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    margin-right: 100px;
+}
+
+.containerButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 25px;
+   margin-bottom: 25px;
+    gap:120px;
+    
+}
+
+.ButtonHomeRegister {
+    padding:25px;
+    width:170px;
+    font-size:25px;
+    border-radius: 35px;
+    font-family: 'Staatliches', cursive;
+    background-color:#0EAD69;
+    color:black;
+
+    
+}
+
+.ButtonHomeLogin {
+    padding: 25px;
+    width:170px;
+    font-size:25px;
+    border-radius: 35px;
+    font-family: 'Staatliches', cursive;
+    background-color:#FDF0D5;
+    
+}
+
+.ButtonHomeLogin:hover{
+color:#FDF0D5;
+background-color: black;
+}
+.ButtonHomeRegister:hover{
+    color:#0EAD69;
+    background-color: black;
+    }
